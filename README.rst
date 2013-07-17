@@ -10,5 +10,7 @@ Introduction
 Open is in alpha state. Pleas join this project and make it an open URL shortenign service.
 Here is the first impression:
 
-![index](https://raw.github.com/vahidR/open/master/open/static/img/open.jpg)
+![home](https://raw.github.com/vahidR/open/master/open/static/img/open.jpg)
+
+![win](https://raw.github.com/vahidR/guess-game/master/images/img3.jpg)
 
