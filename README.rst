@@ -12,5 +12,4 @@ Here is the first impression:
 
 ![home](https://raw.github.com/vahidR/open/master/open/static/img/open.jpg)
 
-![win](https://raw.github.com/vahidR/guess-game/master/images/img3.jpg)
 
