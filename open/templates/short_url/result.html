@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block content %}
+<div class="hero-unit">
+ <div class="row-fluid">
+  <div class="span12 pagination-centered">		
+   {% if links %}
+     <p class="text-success">
+       The shortened URL is: <input class="input-xlarge" type="text" placeholder="{{ links.shorten }}">
+      </p>
+      <br>
+      <p class="text-info">
+       You were looking for: <input class="input-xlarge" type="text" placeholder="{{ links }}" disabled>
+      </p>
+   {% else %}
+      <p class="text-error">
+      There is no link to be shortened !!
+      </p>
+    {% endif %}
+    <br>
+    <form action="{% url 'create' %}">
+	    <input class="btn btn-warning btn-block" type="submit" value="Back to Home">
+    </form>
+
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% load url from future %}
+
+{% block content %}
+<div class="row-fluid">
+<div class="span12 pagination-centered"> 
+ {% if form.errors %}
+ <div class="alert alert-error">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>	 
+  Plese correct the error {{ form.errors|pluralize }} below.
+ </div>
+ {% endif %}
+
+ <form class="form-search" action="{% url "create" %}" method="post">{% csrf_token %}
+ {{ form.as_p }}
+ <input class="btn btn-primary" type="submit" value="Shorten">
+ </form>
+</div>
+</div>
+
+{% endblock %}
