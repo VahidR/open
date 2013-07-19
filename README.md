@@ -41,7 +41,7 @@ python manage.py runserver
 * PS. You should see that one test is not passed. This is purposefully for completing the whole integration test..
 
 
-The `production` mode is the same .. only change the settings target to `--settings=open.settings.production`
+The `production` mode has the same procedure.. only change the settings target to `--settings=open.settings.production`
 
 
 
