@@ -39,3 +39,6 @@ nosetests.xml
 
 # chromdirver logs
 *.log
+
+# sqlite3 db files
+*.db
