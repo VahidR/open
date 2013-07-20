@@ -12,6 +12,6 @@ class URLCreateView(CreateView):
 
 class URLListView(ListView):
 	context_object_name = 'links'
-	queryset = Link.objects.order_by('-id')[0] # last item
+	queryset = Link.objects.order_by('-id')[0] if Link.objects.all() else None
 	template_name = 'short_url/result.html'
 
