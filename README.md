@@ -31,7 +31,7 @@ python manage.py syncdb --settings=open.settings.local
 python manage.py runserver
 ```
 
-Or form `testing` view point:
+Or from `testing` view point:
 ```bash
 cd open/open
 python manage.py syncdb --settings=open.settings.test
