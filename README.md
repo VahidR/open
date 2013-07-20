@@ -36,7 +36,6 @@ Or form `testing` view point:
 cd open/open
 python manage.py syncdb --settings=open.settings.test
 python manage.py test --settings=open.settings.test
-python manage.py runserver
 ```
 * PS. You should see that one test is not passed. This is purposefully for completing the whole integration test..
 
