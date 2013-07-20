@@ -18,5 +18,3 @@ class Link(models.Model):
 	def __unicode__(self):
 		return self.url
 
-	def get_absolute_url(self):
-		return settings.SITE_BASE_URL + self.hash_code
