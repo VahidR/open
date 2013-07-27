@@ -5,6 +5,11 @@ Open: A URL Shortening Service
 Open is a URL shortening service that respects your Digital Civil Liberties.
 
 
+Attention:
+----------
+This is a Saturday project. It needs lots of polishing, testing (Integration tests,etc.), and additional functionalists. A reverse DNS lookup also needed to be implemented.
+
+
 Introduction
 ------------
 Open is in alpha state. Pleas join this project and make it an open URL shortening service.
@@ -47,6 +52,7 @@ The `production` mode has the same procedure.. only change the settings target t
 TODO
 ----
 * Complete the Integration test phase
+* reverse lookup 
 
 
 
