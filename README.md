@@ -52,7 +52,7 @@ The `production` mode has the same procedure.. only change the settings target t
 TODO
 ----
 * Complete the Integration test phase
-* reverse lookup 
-
+* Reverse lookup 
+* Moving to Twitter Boostrap 3
 
 
