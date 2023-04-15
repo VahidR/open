@@ -1,6 +1,6 @@
-==============================
-Open: A URL Shortening Service
-==============================
+# UPDATE: I wrote this tool over 10 years ago. This project is **archived** and no longer in use!
+
+# Open: A URL Shortening Service
 
 Open is a URL shortening service that respects your Digital Civil Liberties.
 
